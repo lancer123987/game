@@ -55,4 +55,34 @@ button{
 .ans button{
   width: 50%;
   min-height: 20vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto 80%;
+}
+.ans button.erro{
+  background-image: url(../img/gophers/erro.png);
+}
+.ans .a1{
+  background-image: url(../img/gophers/a1.png);
+}
+.ans .a1.active{
+  background-image: url(../img/gophers/a2.png);
+}
+.ans .a2{
+  background-image: url(../img/gophers/b1.png);
+}
+.ans .a2.active{
+  background-image: url(../img/gophers/b2.png);
+}
+.ans .a3{
+  background-image: url(../img/gophers/c1.png);
+}
+.ans .a3.active{
+  background-image: url(../img/gophers/c2.png);
+}
+.ans .a4{
+  background-image: url(../img/gophers/d1.png);
+}
+.ans .a4.active{
+  background-image: url(../img/gophers/d2.png);
 }

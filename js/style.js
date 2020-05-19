@@ -69,14 +69,17 @@ $(document).ready(function () {
   $('.ans .a3').attr('value', ques1[3]);
   $('.ans .a4').attr('value', ques1[4]);
 
+
   $('.ans button').click(function () {
     var bt = $(this).attr('value');
     var ans = $('.ques').attr('value');
     if (bt != ans) {
+      $(this).addClass('erro');
       console.log(bt);
       console.log(ans);
       console.log('錯誤');
     } else {
+      $(this).addClass('active');
       console.log(bt);
       console.log(ans);
       console.log('正確');
